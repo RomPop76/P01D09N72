@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 30%;
+    width: 100%;
+    background-color: black
+}
