@@ -3,8 +3,43 @@
     padding: 0;
 }
 
+nav {
+    background-color: #666;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+ul {
+    padding: 30px 0;
+    max-width: 1024px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: block;
+    width: 180px;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 30px;
+    color: white;
+    font-size: 18px;
+    font-family: arial;
+    text-decoration: none;
+}
+
+a:hover {
+    color: chartreuse;
+    border-color: chartreuse;
+}
+
 section {
-    height: 30%;
-    width: 100%;
-    background-color: black
+    height: 30vw;
+    width: 100vw;
+    background-color: rgb(220, 220, 220)
 }
